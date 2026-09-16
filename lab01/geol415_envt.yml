@@ -1,0 +1,18 @@
+name: geol415
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - pip:
+      - numpy
+      - pandas
+      - scipy
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - jupyterlab
+      - notebook
+      - nbconvert
+      - torch
